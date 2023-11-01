@@ -1,5 +1,9 @@
 /* App.css (src) */
 
+#root {
+  margin-top: 100px;
+}
+
 .orange {
   color: orange;
 }
@@ -8,14 +12,49 @@
   color: red;
 }
 
+.number {
+  display: block; 
+  padding-left: 30px;
+  font-size: 30pt;
+}
+
+.button {
+  margin-left: 15px;
+  padding: 8px 12px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  background-color: rgb(54, 94, 161);
+  color: #fff;
+}
+
+
+.profile_container {
+  display: flex;
+  justify-content: center;
+}
+
 .profile {
+  position: relative;
+  width: 200px;
   padding: 1rem;
-  width: 300px;
+  margin: 0 20px 10px 0;
   background-color: #ebebeb;
+  border-radius: 1rem;
   text-align: center;
   box-shadow: 5px 10px 32px -3px rgba(0,0,0,0.27);
   -webkit-box-shadow: 5px 10px 32px -3px rgba(0,0,0,0.27);  
   -moz-box-shadow: 5px 10px 32px -3px rgba(0,0,0,0.27);
+}
+
+.new {
+  position: absolute;
+  top: 30px;
+  left:75%;
+  padding: 5px;
+  font-size: 0.8rem;
+  background-color: dodgerblue;
+  color: #fff;
+  border-radius: 5px;
 }
 
 .img {
@@ -23,3 +62,14 @@
   height: 200px;
   border-radius: 100%;
 }
+
+h1 {
+  margin: 20px 0 3px 0;
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+
