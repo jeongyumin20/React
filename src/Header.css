@@ -1,0 +1,24 @@
+/* Header.css */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 50px; */
+  padding: 20px;
+  background-color: #7ca93e;
+  color: white;
+  line-height: 100px;
+}
+
+.h_img {
+  width: 20%;
+}
+
+.h_search {
+  width: 300px;
+  margin: 0 0 0 10px;
+  padding: 5px;
+  border: 1px solid #92958e;
+  border-radius: 0.5rem;
+}

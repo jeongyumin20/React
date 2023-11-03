@@ -3,7 +3,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './apps/AppCounter.jsx';
-import App from './AppToogle.jsx';
+// import App from './AppToogle.jsx';
+// import App from './AppForm.jsx';
+// import App from './AppLogin.jsx';
+import App from './AppWrap.jsx';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
